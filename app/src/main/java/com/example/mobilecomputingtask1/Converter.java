@@ -5,4 +5,8 @@ public class Converter {
     public static double convertToEgyptian(double dollar) {
         return dollar * ONE_DOLLAR;
     }
+
+    public static double convertToDollar(double egyptian) {
+        return egyptian / ONE_DOLLAR;
+    }
 }
